@@ -1,4 +1,4 @@
-age,height_cm,weight_kg,heart_rate,blood_pressure,nutrition_quality,activity_index,gender,is_fit
+age,height_cm,weight_kg,Heart_rate,blood_pressure,nutrition_quality,activity_index,gender,is_fit
 56,152,65,69.6,117.0,2.37,3.97,0,1
 69,186,95,60.8,114.8,8.77,3.19,0,1
 46,192,103,61.4,116.4,8.2,2.03,0,0
