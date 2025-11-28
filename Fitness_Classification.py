@@ -17,10 +17,8 @@ def user_input_features():
   weight_kg = st.number_input('weight_kg:', min_value=1, max_value=200, value = 1, step = 1)
   Heart_rate = st.number_input('Heart_rate:',min_value=1, max_value=160, value = 1, step = 1)
   blood_pressure = st.number_input('blood_pressure:', min_value=1, max_value=150, value = 1, step = 1)
-  sleep_hours = st.number_input('sleep_hours:', min_value=1, max_value=12, value = 1, step = 1)
   nutrition_quality = st.number_input('nutrition_quality:', min_value=1, max_value=10, value = 1, step = 1)
   activity_index = st.number_input('activity_index:', min_value=1, max_value=4, value = 1, step = 1)
-  smokes = st.number_input('smokes:', min_value=0, max_value=1, value = 0, step = 1)
   gender = st.number_input('gender:', min_value=0, max_value=1, value = 0, step = 1)
 
   user_input_data = {'age': age,
@@ -29,10 +27,8 @@ def user_input_features():
                      'weight_kg': weight_kg,
                      'Heart_rate': Heart_rate,
                      'blood_pressure': blood_pressure,
-                     'sleep_hours': sleep_hours,
                      'nutrition_quality': nutrition_quality,
-                     'activity_index': activity_index,
-                     'smokes': smokes}
+                     'activity_index': activity_index,}
 
   features = pd.DataFrame(user_input_data, index=[0])
 
